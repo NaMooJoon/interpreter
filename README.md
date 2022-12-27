@@ -98,17 +98,17 @@
 
 ```tex
 <RBMRCFAE> ::= <num>
-						| {+ <RBMRCFAE> <RBMRCFAE>}
-						| {- <RBMRCFAE> <RBMRCFAE>}
-						| <id>
-						| {fun {<id>} <RBMRCFAE>}
-						| {refun {<id>} <RBMRCFAE>}
-						| {setvar <id> <RBMRCFAE>}
-						| {newbox <RBMRCFAE>}
-						| {openbox <RBMRCFAE>}
-						| {seqn <RBMRCFAE> <RBMRCFAE>}
-						| {if0 <RBMRCFAE> <RBMRCFAE> <RBMRCFAE>}
-						| {rec <id> <RBMRCFAE> <RBMRCFAE>}
+	      | {+ <RBMRCFAE> <RBMRCFAE>}
+	      | {- <RBMRCFAE> <RBMRCFAE>}
+	      | <id>
+	      | {fun {<id>} <RBMRCFAE>}
+	      | {refun {<id>} <RBMRCFAE>}
+	      | {setvar <id> <RBMRCFAE>}
+	      | {newbox <RBMRCFAE>}
+	      | {openbox <RBMRCFAE>}
+	      | {seqn <RBMRCFAE> <RBMRCFAE>}
+	      | {if0 <RBMRCFAE> <RBMRCFAE> <RBMRCFAE>}
+	      | {rec <id> <RBMRCFAE> <RBMRCFAE>}
 ```
 - #### Example code
 
